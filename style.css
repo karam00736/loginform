@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.left-container,.right-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+ 
+}
+
+.left-container{
+  width: 50vw;
+  height: 100vh;
+  background-color: #03a9f4;
+}
+
+.left-img{
+  width: 40rem;
+  height:30rem;
+  margin-left: 2rem;
+}
+
+
+.right-container{
+  width: 50vw;
+  height: 100vh;
+  font-size: 1rem;
+  display: flex;
+  justify-content: left;
+  align-items:baseline;
+  flex-direction: column;
+  background-color: aliceblue;
+  
+}
+  
+
+.form-heading-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+  width: 50vw;
+  
+ 
+}
+
+.form-heading-container h2{
+  font-size: 2rem;
+  
+ }
+.form-heading-container h3{
+ font-size: 1rem;
+ color: rgba(105, 105, 105, 0.403);
+ 
+}
+.form-item{
+  margin-top: 2rem;
+  margin-left: 2rem;
+
+}
+
+.form-item input{
+width: 35rem;
+height: 5rem;
+border-radius: 1rem;
+border: none;
+}
+
+.form-item input[placeholder]{
+  font-size: 1.2rem;
+  color: lightslategray;
+ padding-left: 1rem;
+ letter-spacing: .2rem;
+}
+
+.Password-container a{
+  margin-left: 27rem;
+  text-decoration: none;
+  color: black;
+}
+
+.button-container button{
+  margin-top: 2rem;
+  width: 35rem;
+  height: 5rem;
+  border-radius: 1rem;
+  border: none;
+  background-color:  #03a9f4;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  letter-spacing: .2rem;
+}
+
+.register-container p{
+ margin-left: 10rem;
+ margin-top: 3rem;
+ font-size: .9rem;
+}
+
+.register-container p a{
+  text-decoration: none;
+  color: #03a9f4;
+  margin-left: .5rem;
+ }
+ 
